@@ -14,3 +14,23 @@
 # If you have enough courage and time, try storing (reading/writing) 
 # data in text files (YAML, JSON).
 # If you have even more courage, try implementing user interface.
+
+
+
+class diary(object):
+	def __init__(self,name="unknown",surname="unknown",marks=0):
+		
+	self.name = name
+	self.surname = surname
+
+	
+	def average_of_student(marks):
+		average = 0	
+			for i in len(marks):
+				average = average + i
+		
+		average = average/len(average)
+
+	return average
+
+
